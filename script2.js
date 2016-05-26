@@ -9,6 +9,8 @@ function choice(btn){
 	if(btn == 1){
 		 Q1 = 1;
 		console.log(Q1);
+	       var box = document.getElementByld('first');
+	       box.style.backgroundColor = "#BBCCDD";
 	}
 	else if(btn == 2){
 		 Q1 = 2;

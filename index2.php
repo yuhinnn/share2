@@ -8,9 +8,9 @@
   <body>
 
 <div class="q1">
-<input type="button" name="a" value="aaa" onClick="choice(1)">
-<input type="button" name="b" value="bbb" onClick="choice(2)">
-<input type="button" name="c" value="ccc" onClick="choice(3)">
+<input class="fist" type="button" name="a" value="aaa" onClick="choice(1)">
+<input class="secound"type="button" name="b" value="bbb" onClick="choice(2)">
+<input class="third" type="button" name="c" value="ccc" onClick="choice(3)">
 </div>
 
 
