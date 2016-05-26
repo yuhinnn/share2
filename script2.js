@@ -114,15 +114,15 @@ function mid(){
 function sendresult(){
     var  sum=Q1+Q2+Q3+Q4;
   if(sum == 4||sum == 5){
-  location.href="index3.php";
+	  location.href="index3.php";
   }else if(sum == 6||sum == 7){
-  location.href="index4.php";
+	  location.href="index4.php";
   }else if(sum == 8){
-  location.href="index5.php";
+	  location.href="index5.php";
   }else if(sum == 9||sum == 10){
-  location.href="index6.php";
+	  location.href="index6.php";
   }else if(sum == 11||sum == 12){
-  location.href="index7.php";
+	  location.href="index7.php";
   }
 }
 
