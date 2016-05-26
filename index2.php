@@ -35,6 +35,17 @@
 <input id="ninth" type="button" name="k" value="ccc" onClick="choice3(9)" style="background:yellow"=>
 </div>
 
+
+<h1>Question4</h1>
+
+<div class="q4">
+<input id="tenth" type="button" name="g" value="aaa" onClick="choice4(10)" style="background:yellow"=>
+<input id="eleventh" type="button" name="i" value="bbb" onClick="choice4(11)" style="background:yellow"=>
+<input id="twelfth" type="button" name="k" value="ccc" onClick="choice4(12)" style="background:yellow"=>
+</div>
+
+
+
 <div class="mid">
 <input type="button" value="mid" onClick="mid()">
 

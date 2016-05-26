@@ -79,12 +79,58 @@ function choice3(btn){
 
 }
 
+function choice4(btn){
+	if(btn == 10){
+		Q4 = 1;
+		console.log(Q4);
+	 document.getElementById("tenth").style.background = "red";
+	 document.getElementById("eleventh").style.background = "yellow";       
+	 document.getElementById("twelfth").style.background = "yellow";
+	}
+	else if(btn == 11){
+		Q4 = 2;
+		console.log(Q4);
+	 document.getElementById("tenth").style.background = "yellow";
+	 document.getElementById("eleventh").style.background = "red";       
+	 document.getElementById("twelfth").style.background = "yellow";
+	}
+	else if(btn == 12){
+		Q4 = 3;
+		console.log(Q4);
+	 document.getElementById("tenth").style.background = "yellow";
+	 document.getElementById("eleventh").style.background = "yellow";       
+	 document.getElementById("twelfth").style.background = "red";
+	}
+
+}
+
+
+
 function mid(){
 	console.log(Q1);
 }
 
 
 function sendresult(){
-    var  sum=Q1+Q2+Q3;
-	console.log(sum);
+    var  sum=Q1+Q2+Q3+Q4;
+  if(sum == 4||sum == 5){
+  location.href="index3.php";
+  }else if(sum == 6||sum == 7){
+  location.href="index4.php";
+  }else if(sum == 8){
+  location.href="index5.php";
+  }else if(sum == 9||sum == 10){
+  location.href="index6.php";
+  }else if(sum == 11||sum == 12){
+  location.href="index7.php";
+  }
 }
+
+
+
+
+
+
+
+
+
