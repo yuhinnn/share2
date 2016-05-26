@@ -84,8 +84,7 @@ function mid(){
 }
 
 
-
-function result(){
-      sum=Q1+Q2+Q3;
+function sendresult(){
+    var  sum=Q1+Q2+Q3;
 	console.log(sum);
 }

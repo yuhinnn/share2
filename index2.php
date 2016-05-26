@@ -41,7 +41,7 @@
 </div>
 
 <div class="result">
-<input type="button" name="result" value="result" onClick="result()">
+<input type="button" name="result" value="result" onClick="sendresult()">
 </div>
 
 <script src="script2.js"></script>
